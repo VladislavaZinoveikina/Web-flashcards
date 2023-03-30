@@ -1,0 +1,29 @@
+body {
+    background-color: azure;
+    padding: 10px;
+}
+
+.regisration, .topics, .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    padding: 20px;
+}
+
+.topicTitle {
+    margin-bottom: 20px;
+}
+
+.questTitle {
+    color: gray;
+    font-size: large;
+}
+
+.questionForm {
+    display: flex;
+    justify-content: space-between;
+}
